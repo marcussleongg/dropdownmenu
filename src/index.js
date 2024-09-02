@@ -6,7 +6,7 @@ options.style.display = 'none';
 
 full.addEventListener('mouseover', () => {
     label.style.color = 'pink';
-    options.style.display = 'inline';
+    options.style.display = 'inline-block';
 })
 
 full.addEventListener('mouseout', () => {
